@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "floor": "/pages/index/Floor",
+    "card": "/pages/index/Card"
+  }
+}

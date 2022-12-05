@@ -1,0 +1,93 @@
+.indexContainer .header {
+  height: 80rpx;
+  align-items: center;
+  display: flex;
+}
+.indexContainer .header .logo {
+  height: 40rpx;
+  width: 120rpx;
+  margin: 10px 20rpx;
+}
+.indexContainer .header .search {
+  height: 60rpx;
+  display: flex;
+  border: 1px solid #ccc;
+  flex: 1;
+  box-sizing: border-box;
+  align-items: center;
+}
+.indexContainer .header .search .iconfont {
+  margin: 0 10rpx;
+}
+.indexContainer .header .search .input .place {
+  font-size: 28rpx;
+  color: #f00;
+}
+.indexContainer .header .btn {
+  height: 60rpx;
+  margin: 0 10rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 30rpx;
+}
+.indexContainer .navScroll {
+  height: 80rpx;
+  display: flex;
+}
+.indexContainer .navScroll .item {
+  flex-shrink: 0;
+  width: 140rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  box-sizing: border-box;
+}
+.indexContainer .navScroll .item.active {
+  border-bottom: 1px solid #f00;
+}
+.indexContainer .mainScroll {
+  height: calc(100vh - 160rpx);
+}
+.indexContainer .mainScroll .mainItem .mainImg {
+  width: 100%;
+  height: 350rpx;
+}
+.indexContainer .mainScroll .mainItem .iconList {
+  margin-top: 10rpx;
+  height: 32rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.indexContainer .mainScroll .mainItem .iconList .iconItem {
+  height: 32rpx;
+  display: flex;
+  align-items: center;
+}
+.indexContainer .mainScroll .mainItem .iconList .iconItem .iconImg {
+  width: 32rpx;
+  height: 32rpx;
+}
+.indexContainer .mainScroll .mainItem .iconList .iconItem .iconText {
+  font-size: 24rpx;
+}
+.indexContainer .mainScroll .mainItem .categoryList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.indexContainer .mainScroll .mainItem .categoryList .category {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.indexContainer .mainScroll .mainItem .categoryList .category .catImg {
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 30rpx;
+  margin: 20rpx 0;
+}
+.indexContainer .mainScroll .mainItem .categoryList .category .catText {
+  font-size: 28rpx;
+}
+
